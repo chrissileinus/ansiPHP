@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansi;
+namespace Chrissileinus\Ansi;
 
 /**
  * Clear

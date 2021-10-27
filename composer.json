@@ -3,7 +3,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Chrissileinus\\Ansiphp\\": "src/"
+            "Chrissileinus\\Ansi\\": "src/"
         }
     },
     "authors": [
