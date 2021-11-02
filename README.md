@@ -8,7 +8,9 @@ It makes the code more readable as a lot of cryptic ANSI code in a long string.
 
 All Clear commands do have one param `$command`
 
-`Clear::toEnd`: Clears everything for the current cursor position to the end.
+`Clear::toEnd`
+
+: Clears everything for the current cursor position to the end.
 
 `Clear::toStart`: Clears everything for the current cursor position to the start.
 
