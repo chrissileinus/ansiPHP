@@ -18,24 +18,24 @@ class Clear
   /**
    * screen
    *
-   * @param  mixed $value Clear::toEnd | Clear::toStart | Clear::All
+   * @param  mixed $command Clear::toEnd | Clear::toStart | Clear::All
    * @return string       Ansi Code
    */
-  public static function screen(int $value): string
+  public static function screen(int $command): string
   {
-    if ($value >= 0 && $value <= 2) return "\e[" . $value . "J";
+    if ($command >= 0 && $command <= 2) return "\e[" . $command . "J";
     return "";
   }
 
   /**
    * line
    *
-   * @param  mixed $value Clear::toEnd | Clear::toStart | Clear::All
+   * @param  mixed $command Clear::toEnd | Clear::toStart | Clear::All
    * @return string       Ansi Code
    */
-  public static function line(int $value): string
+  public static function line(int $command): string
   {
-    if ($value >= 0 && $value <= 2) return "\e[" . $value . "K";
+    if ($command >= 0 && $command <= 2) return "\e[" . $command . "K";
     return "";
   }
 }
