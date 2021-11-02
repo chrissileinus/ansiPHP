@@ -4,6 +4,8 @@ A simple Library with static classes they generate ANSI Control Sequences and re
 
 It makes the code more readable as a lot of cryptic ANSI code in a long string.
 
+[[_TOC_]]
+
 ## Clear
 
 All Clear commands do have one param `$command`
