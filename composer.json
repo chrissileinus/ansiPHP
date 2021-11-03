@@ -1,6 +1,8 @@
 {
     "name": "chrissileinus/ansi-php",
     "type": "library",
+    "license": "MIT",
+    "description": "A simple Library with static classes they generate ANSI Control Sequences and return the code as a string.",
     "autoload": {
         "psr-4": {
             "Chrissileinus\\Ansi\\": "src/"
