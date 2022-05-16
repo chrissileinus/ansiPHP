@@ -4,7 +4,7 @@ A simple Library with static classes they generate ANSI Control Sequences and re
 
 It makes the code more readable as a lot of cryptic ANSI code in a long string.
 
-https://misc.flogisoft.com/bash/tip_colors_and_formatting
+[Bash tips: Colors and formatting (ANSI/VT100 Control sequences)](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 ## Clear
 
